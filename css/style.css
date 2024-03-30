@@ -1,0 +1,246 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.background video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav {
+    display: in-block;
+    height: 106px;
+    z-index: 2;
+}
+.left_nav {
+    width: 165px;
+    height: 106px; 
+    float:left;
+}
+.left_nav_book {
+    float: right;
+    width: 72px;
+    height:25px;
+    margin-top:40px;
+}
+.left_nav_book img {
+    width:100％;
+    height:100％;
+}
+.boxrightline {
+    /* width: 1090px; */
+    height: 106px;
+    margin:auto 65px;
+    line-height: 106px;
+    float: right;
+}
+.boxnavigation {
+    display: flex;
+    /* width: 1090px; */
+    height: 20.8px;
+    margin:40px auto;
+    line-height: 20.8px;
+}        
+.smallboxwrite {
+    margin-left: 60px;
+}
+.smallboxwrite a{
+    text-decoration: none;
+    color: #fff;;
+}
+.tirangle {
+    width: 100px;
+}
+.main {
+    width: 1080px;
+    height: calc(100vh - 106px - 100px );
+    margin: 0 auto;
+}
+.main_book {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100vh - 106px - 100px );
+    width: 630px;
+    height: 480px;
+    margin: auto;
+}
+.main_book_iphone {
+    position: relative;
+    top: 28px;
+    float: left;
+    width: 240px;
+    height: 425px;
+}
+.main_book video {
+    height: 360px;
+}
+.iphonePNG img {
+    position: relative;
+    top: -373px;
+    right: 11px;
+}
+.main_right {
+    float: right;
+    width: 378px;
+    height: 180px;
+    margin: 126px 0;
+}
+.main_right img {
+    height: 40px;
+}
+.main_life {
+    margin: 9px 0;
+    font-size: 38px;
+    color:#FFF;
+}
+.main_download_position {
+    height: 30px;
+    margin: 47px 0;
+}
+.main_download {
+    float: left;
+    width: 120px;
+    height: 30px;
+    margin-right: 11px;
+    background-color: #FFF;
+    border-radius: 30px;
+}
+.wrapper{
+    width: 989px;
+    height:19px;
+    margin: auto auto;
+    background-color: antiquewhite;
+}
+.useragreement {
+    float:left;
+    margin-right: 236px;
+    color:#FFF;
+    font-size: 14px;  
+    
+}
+.community {
+    float: left;
+    font-size: 14px;
+    color:#FFF
+}
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding: 10px 0;
+}
+.footerfirst {
+    width: 989px;
+    height:19px;
+    margin: auto auto;
+}
+.useragreement {
+    float:left;
+    margin-right: 236px;
+    color:#FFF;
+    font-size: 14px;    
+}
+.community {
+    float: left;
+    font-size: 14px;
+    color:#FFF
+}
+.footer {
+    font-size: 12px;
+    color:#999;
+    margin: auto auto;
+    text-align: center;
+}
+.footer a{
+    color:grey;
+    font-size: 12px;
+    text-decoration: none;
+}
+.bannerrr {
+    height: 19px;
+}
+.main_download_apple_left {
+    float: left;
+    padding-left: 30px; 
+}
+.main_download_apple_left img {
+    width: 18px;
+    height: 20px;
+    margin: 5px auto;
+}
+.main_download_apple_right {
+    float: left;
+    padding-left: 8px;
+    margin: 8px auto;
+    color:#999;
+    font-size: 10px;
+}
+.main_download_android_left {
+    float: left;
+    padding-left: 16px; 
+}
+.main_download_android_left img {
+    width: 18px;
+    height: 20px;
+    margin: 5px auto;
+}
+.main_download_android_right {
+    float: left;
+    padding-left: 8px;
+    margin: 8px auto;
+    color:#999;
+    font-size: 10px;
+}
+.greyLine {
+    position:absolute;
+    top: 70px;
+    right: 1063px;
+    width: 32px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: gray;
+}
+.stick {
+    position:absolute;
+    top: 10px;
+    right: 619px;
+    width: 70px;
+    height: 40px;
+    margin: auto auto;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 30px;
+    background-image: url(../images/stick.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.stick_write {
+    width: 17px;
+    height: 20px;
+    font-size: 1px;
+}
+.online_jpg {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    position:relative;
+    top: 4px;
+}
